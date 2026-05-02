@@ -8,6 +8,9 @@
     "ecmaVersion": 2020
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2]
   }
 }
