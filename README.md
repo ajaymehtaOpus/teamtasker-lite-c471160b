@@ -30,3 +30,11 @@ npm run migrate
 node --check src/index.js
 npm run build
 ```
+
+## Environment Variables
+
+Make sure to set the following environment variables in your `.env` file:
+- `DATABASE_URL`: Your PostgreSQL connection string.
+- `JWT_SECRET`: Secret key for JWT.
+- `JWT_REFRESH_SECRET`: Secret key for refresh tokens.
+- `PORT`: Port number for the application (default is 3000).
